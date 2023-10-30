@@ -1,0 +1,613 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+
+body{
+     
+     box-sizing: border-box;
+     background-color:black;
+}
+/*header*/
+
+header img{
+     width: 100%;
+}
+header img:hover{
+     filter: brightness(70%);
+
+
+
+}
+
+header{ position: relative;
+     display: inline-block;
+
+
+}
+
+
+
+
+header ul li {
+
+     display: inline-block;
+     position: relative;
+     margin: 30px;
+     top: 0%;
+     bottom: 450px;
+     z-index: 1;
+     color:white;
+}
+
+header ul li:hover{
+     color: red;
+     text-decoration: underline;
+     cursor:pointer;
+}
+
+header b{
+font-style: italic;
+     font-size: 30px;
+     font-family: cursive;
+     color: white;
+     text-shadow: 9px 7px 8px white ,8px 8px 9px blue;
+     position: relative;
+     display: inline-block;
+     
+     left: 70%;
+     bottom: 490px;
+     z-index: 2;
+     
+}
+
+/*logo img*/
+
+.logo{
+     position: relative;
+     width: 350px;
+     height: 400px;
+     display: inline-block;
+     bottom: 450px;
+     left:450px;
+     
+}
+.logo img {
+     width: 100px;
+     height: 100px;
+     position: absolute;
+     bottom: 300px;
+     left: 100px;
+     border: solid black;
+     border-radius: 50%;
+}
+.logo p{
+     position: absolute;
+     bottom: 270px;
+     left: 20px;
+     display: inline-block;
+     color: white;
+     font-size: 25px;
+     font-weight: 900;
+     font-family: 'Nanum Brush Script', cursive;
+     animation-name: shiv;
+     animation-duration: 3s;
+     animation-iteration-count: 1;
+     animation-delay: 2s;
+     
+}
+
+@keyframes shiv {
+     to{
+          transform: rotate(0);
+     }
+     from{
+          transform: rotate(360deg);
+     }
+}
+
+
+
+.logo p:hover{
+     color: blue;
+
+    
+
+}
+
+
+
+.logo b{
+     color:white;
+     position: absolute;
+     bottom: 200px;
+     left: 20x;
+
+}
+.logo b:hover{
+     text-shadow: 9px 8px 9px blue, 8px 9px 9px white;
+     text-decoration: underline; 
+}
+
+
+
+/* Style all font awesome icons */
+.fa {
+     display: inline-block;
+     position: absolute;
+     top: 280px;
+     left: 50px;
+     
+     height: 60px;
+     width: 250px;
+    
+   }
+   
+   
+   /* Set a specific color for each brand */
+   
+   /* Facebook */
+   .fa-facebook {
+     top: 10px;
+     background: #3B5998;
+     color: white;
+     padding: 10px;
+     font-size: 30px;
+     width: 30px;
+     height: 20px;
+     text-align: center;
+     text-decoration: none;
+     border-radius: 50%;
+   }
+
+   .fa-facebook:hover{
+     filter: brightness(50%);
+   }
+
+
+
+
+   .fa-instagram{
+     display: inline-block;
+     position: absolute;
+     left: 100px;
+     
+     padding: 0px;
+     font-size: 40px;
+     width: 30px;
+     height: 20px;
+     text-align: center;
+     text-decoration: none;
+
+
+     border-radius: 30px;
+     color: red;
+   }
+
+   .fa-instagram:hover{
+     filter: brightness(50%);
+   }
+
+   
+   .fa-envelope{
+     display: inline-block;
+     position: absolute;
+     left: 200px;
+     
+     padding: 0px;
+     font-size: 40px;
+     width: 30px;
+     height: 20px;
+     text-align: center;
+     text-decoration: none;
+
+
+     border-radius: 30px;
+     color: blue;
+   }
+
+   .fa-envelope:hover{
+     filter: brightness(70%);
+   }
+
+   
+
+
+
+
+
+
+
+/*shivam mig*/
+
+.shiv{
+     width: 400px;
+     height: 400px;
+     position: relative;
+     right: 330px;
+     bottom: 100px;
+     display: inline-block;
+     border:black 3px;
+     border-radius: 50%;
+     box-shadow: 19px 17px 18pc white,18px 19px 17px palevioletred;
+     background-color:black;
+     z-index: 5;
+     animation-name: shivam;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+     
+}
+@keyframes shivam{
+     0%{
+          background-image:url(shiv4.png)
+     }
+     25%{
+          background-image: url(shiv5.png);
+     }
+     50%{
+          background-image: url(shiv1.png);
+     }
+
+     100%{
+          background-image: url(shiv3.png);
+     }
+}
+
+/*about*/
+
+
+.About{
+     width: 400px;
+     height: 200px;
+     border: 4px solid black;
+     background-color:black;
+     position: relative;
+     left: 650px;
+     bottom: 480px;
+}
+.About pre{
+     font-size: 19px;
+     font-weight: bold;
+     color: white;
+
+}
+
+/*skills*/
+
+     
+
+.skills{
+     width: 550px;
+     height: 650px;
+     
+     position: relative;
+     bottom: 500px;
+     left: 650px;
+     display: inline-block;
+}
+.skills b{
+     color: yellow;
+     position: absolute;
+     left: 200px;
+     font-size: 20px;
+}
+
+.htmlcss{
+     width: 100%;
+     height: 5px;
+     background-color: white;
+     position: absolute;
+     top: 100px;
+     border-radius: 50px;
+     display: inline-block;
+
+}
+
+.htmlcss b{
+     left: 10px;
+     bottom: 10px;
+     color: white;
+     font-size: 15px;
+}
+.css{
+     width: 95%;
+     height: 5px;
+     background-color:yellow;
+     position: absolute;
+     
+     border-radius: 50px;
+     animation:css;
+     animation-duration: 20s;
+     animation-iteration-count:infinite;
+     
+     
+
+}
+
+@keyframes css{
+     to{
+          width: 95%;
+     }
+     from{
+          width: 0%;
+     }
+}
+
+
+
+.java{
+     width: 100%;
+     height: 5px;
+     background-color: white;
+     position:absolute;
+     top: 170px;
+     border-radius: 50px;
+     display: inline-block;
+     margin: 0;
+     padding: 0;
+
+}
+.java b{
+     position: relative;
+     left: 10px;
+     bottom: 50px;
+     color: white;
+     font-size: 15px;
+}
+
+.script{
+     width: 90%;
+     height: 5px;
+     background-color:yellow;
+     position: absolute;
+     margin: 0;
+     padding: 0;
+     border-radius: 50px;
+     bottom: 0;
+     animation:scr;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+     
+     
+
+}
+
+@keyframes scr{
+     to{
+          width: 90%;
+     }
+     from{
+          width: 0%;
+     }
+}
+
+.jquery{
+     width: 100%;
+     height: 5px;
+     background-color: white;
+     position: absolute;
+     top: 250px;
+     display: inline-block;
+     border-radius: 50px;
+
+}
+.jquery b{
+     position: relative;
+     left: 10px;
+     bottom: 50px;
+     color: white;
+     font-size: 15px;
+}
+
+.query{
+     width: 87%;
+     height: 5px;
+     background-color:yellow;
+     position: absolute;
+     margin: 0;
+     padding: 0;
+     border-radius: 50px;
+     bottom: 0;
+     animation:scr;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+     
+     
+
+}
+
+@keyframes scr{
+     to{
+          width: 87%;
+     }
+     from{
+          width: 0%;
+     }
+
+
+}
+    
+
+
+.boot{ width: 100%;
+     height: 5px;
+     background-color: white;
+     position: absolute;
+     top: 330px;
+     display: inline-block;
+     border-radius: 50px;
+
+}
+
+.boot b{
+     position: relative;
+     left: 10px;
+     bottom: 50px;
+     color: white;
+     font-size: 15px;
+}
+
+.strap{
+     width: 90%;
+     height: 5px;
+     background-color:yellow;
+     position: absolute;
+     border-radius: 50px;
+     margin: 0;
+     padding: 0;
+     bottom: 0;
+     animation:scr;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+     
+     
+
+}
+
+@keyframes scr{
+     to{
+          width: 90%;
+     }
+     from{
+          width: 0%;
+     }
+
+}
+
+.react{ width: 100%;
+     height: 5px;
+     background-color: white;
+     position: absolute;
+     top: 400px;
+     display: inline-block;
+     border-radius: 50px;
+
+}
+
+.react b{
+     position: relative;
+     left: 10px;
+     bottom: 50px;
+     color: white;
+     font-size: 15px;
+}
+
+.js{
+     width: 90%;
+     height: 5px;
+     background-color:yellow;
+     position: absolute;
+     border-radius: 50px;
+     margin: 0;
+     padding: 0;
+     bottom: 0;
+     animation:js;
+     animation-duration: 20s;
+     animation-iteration-count: infinite; 
+
+}
+
+@keyframes js{
+     to{
+          width: 80%;
+     }
+     from{
+          width: 0%;
+     }
+}
+
+
+.node{ width: 100%;
+     height: 5px;
+     background-color: white;
+     position: absolute;
+     top: 480px;
+     display: inline-block;
+     border-radius: 50px;
+
+}
+
+.node b{
+     position: relative;
+     left: 10px;
+     bottom: 50px;
+     color: white;
+     font-size: 15px;
+}
+
+
+.express-js { 
+     width: 100%;
+      height: 5px;
+     background-color: white;
+     position: absolute;
+     top: 560px;
+     display: inline-block;
+     border-radius: 50px;
+
+}
+
+.express-js b{
+     position: relative;
+     left: 10px;
+     bottom: 50px;
+     color: white;
+     font-size: 15px;
+}
+
+
+
+
+.mongo{ 
+     width: 100%;
+     height: 5px;
+     background-color: white;
+     position: absolute;
+     top: 640px;
+     display: inline-block;
+     border-radius: 50px;
+
+}
+
+.mongo b{
+     position: relative;
+     left: 10px;
+     bottom: 50px;
+     color: white;
+     font-size: 15px;
+}
+
+.db{
+     width: 90%;
+     height: 5px;
+     background-color:yellow;
+     position: absolute;
+     border-radius: 50px;
+     margin: 0;
+     padding: 0;
+     bottom: 0;
+     animation:db;
+     animation-duration: 20s;
+     animation-iteration-count: infinite; 
+
+}
+
+@keyframes db{
+     to{
+          width: 77%;
+     }
+     from{
+          width: 0%;
+     }
+}
+
+
+
+
+
+
